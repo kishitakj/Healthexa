@@ -1,0 +1,25 @@
+<html>
+<script type="text/javascript">
+function odd(){
+var m=Number(document.getElementById("first").value);
+var n=Number(document.getElementById("second").value);
+var i;
+for(i=m;i<=n;i=i+2)
+{
+if(m%2==0)
+{
+document.write( (i+1) +"<br/>")
+}
+else
+{
+document.write( i +"<br/>")
+}
+}
+} 6
+</script>
+<body>
+enter the first no.<input id="first"><br>
+enter the second no.<input id="second"><br>
+<button onclick="odd()">display all numbers bw them</button>
+</body>
+</html>

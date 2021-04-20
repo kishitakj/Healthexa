@@ -1,0 +1,22 @@
+<html>
+<script type="text/javascript">
+function add(){
+var m=Number(document.getElementById("second").value);
+var n=Number(document.getElementById("first").value);
+var sum=0;
+var i;
+for(i=m;i<=n;i++)
+{
+ sum=sum+i;
+}
+document.write(sum);
+document.write("exiting the loop!");
+}
+
+</script>
+<body>
+enter the first no.<input id="first"><br>
+enter the second no.<input id="second"><br>
+<button onclick="add()">add all numbers bw them</button>
+</body>
+</html>
